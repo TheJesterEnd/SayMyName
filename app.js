@@ -16,12 +16,14 @@ const heisenberg = walter.value.trim();
 if (heisenberg ==="HEISENBERG"){
     imgElement.src = "images/you-are-goddamn-right.jpg";
     text.textContent = " You're Goddamn Right";
+    text.style.fontSize = "28px"
     
-}
- else{
+}else{
     imgElement.src = "images/are-you-sure.jpg"
-    text.textContent = "Are you Sure?"
+    text.textContent = "Are You Sure?"
+    // imgElement.style.height ="300px"
     
 }
+ 
 
 }
