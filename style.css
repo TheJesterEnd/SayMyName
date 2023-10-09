@@ -27,9 +27,6 @@ body{
     background-color: rgba(172, 112, 7, 0.985);
 }
 
-.image{
-    height: 300px;
-}
 
 .img{
     
@@ -68,4 +65,15 @@ h1{
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+}
+#languageButton{
+    width: 30px;
+    height: 28px;
+    background-color: rgb(177, 146, 7);
+    color: #5CB3FF;
+    border-radius: 5px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    margin: 0 -76px 0 259px;
 }
