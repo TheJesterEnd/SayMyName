@@ -19,9 +19,8 @@ let languageArr = [
     en: "You're Goddamn Right",
   },
 ];
-
+toggleLanguage()
 function toggleLanguage() {
-  isGeorgian = !isGeorgian;
   const currentText = text.textContent;
 
   const translation = languageArr.find(
@@ -41,7 +40,10 @@ function handleInputChange() {
 
 walter.addEventListener("input", handleInputChange);
 
-languageButton.addEventListener("click", toggleLanguage);
+languageButton.addEventListener("click", ()=>{
+  isGeorgian=!isGeorgian
+  toggleLanguage()
+});
 
 function myFunction() {
   const heisenberg = walter.value.trim();
